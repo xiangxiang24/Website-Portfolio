@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Itim&family=Pacifico&display=swap');
+
+body
+{
+    background-color: rgb(4, 11, 33);
+}
+
+
+.menu0 h2
+{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 900;
+    display: inline;
+    text-align: start;
+    padding: 2rem;
+    list-style-type: none;
+}
+
+.menu0 a
+{
+    font-size: 20px;
+    color: rgb(24, 45, 108);
+}
+
+.text1
+{
+    margin-top: 2rem;
+    padding: 0 3rem;
+    float:left;
+}
+.text2
+{
+    float: right;
+    margin-right: 2rem;
+}
+
+.menu0 button
+{
+    font-weight: 900;
+    margin-left: 0.5cm;
+    margin-top: 2rem;
+    padding: 10px 25px;
+    border: 0;
+    display: inline-flex;
+    border-radius: 20px;
+}
+
+*
+{
+    font-family: "Arvo", serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.head1 h1
+{
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 0.5cm;
+}
+
+.SchName 
+{
+    justify-content: center;
+    color: white;
+}
+.SchName img
+{
+    border: 0;
+    border-radius: 20px;
+}
+.SchName li
+{
+    list-style-type: none;
+}
+
+.A h1
+{
+    width: auto;
+    height: auto;
+    margin-top: 2rem;
+    margin-right: 7.5cm;
+    text-align: center;
+    float: right;
+    font-family: "DM Serif Display", serif;
+}
+.A img
+{
+    margin-left: 8cm;
+}
+
+.B1
+{
+    border: 1cm;
+    border: solid;
+    border-radius: 20px;
+    width: 10cm;
+    height: 2.5cm;
+    margin-left: 7.5cm;
+    margin-top: 0.5rem;
+    text-align: center;
+    float: left;
+    font-family: "DM Serif Display", serif;
+}
+.B h1
+{
+    font-family: "DM Serif Display", serif;
+}
+.B p
+{
+    font-family: "Dm Serif Display", serif;
+}
+.B img
+{
+    margin-left: 3cm;
+}
+
+.C h1
+{
+    border: 1cm;
+    border-radius: 20px;
+    border: solid;
+    width: 12cm;
+    height: 1.25cm;
+    margin-top: 2rem;
+    margin-right: 6cm;
+    text-align: center;
+    float: right;
+    font-family: "DM Serif Display", serif;
+}
+.C img
+{
+    margin-left: 8cm;
+}
+
+.D h1
+{
+    width: auto;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 7.5cm;
+    text-align: center;
+    float: left;
+    font-family: "DM Serif Display", serif;
+}
+.D img
+{
+    margin-left: 2cm;
+}
