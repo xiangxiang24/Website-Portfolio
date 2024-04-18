@@ -56,7 +56,10 @@ body
     padding: 0;
     text-decoration: none;
 }
-
+.head1
+{
+    background-color: black;
+}
 .head1 h1
 {
     color: white;
@@ -67,8 +70,12 @@ body
     letter-spacing: 0.5cm;
 }
 
+
 .SchName 
 {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
     justify-content: center;
     color: white;
 }
@@ -82,20 +89,27 @@ body
     list-style-type: none;
 }
 
-.A h1
+.A1 h1
 {
-    width: auto;
-    height: auto;
+    font-family: "DM Serif Display", serif;
+}
+.A1
+{
+    border: 1cm;
+    border-radius: 20px;
+    border: solid;
+    width: 12cm;
+    height: 1.25cm;
     margin-top: 2rem;
-    margin-right: 7.5cm;
+    margin-right: 6cm;
     text-align: center;
     float: right;
-    font-family: "DM Serif Display", serif;
 }
 .A img
 {
     margin-left: 8cm;
 }
+
 
 .B1
 {
@@ -123,6 +137,7 @@ body
     margin-left: 3cm;
 }
 
+
 .C h1
 {
     border: 1cm;
@@ -141,17 +156,24 @@ body
     margin-left: 8cm;
 }
 
-.D h1
+
+.D1 h1
 {
-    width: auto;
-    height: auto;
+    font-family: "DM Serif Display", serif;
+}
+.D1
+{
+    border: 1cm;
+    border-radius: 20px;
+    border: solid;
+    width: 12cm;
+    height: 1.25cm;
     margin-top: 2rem;
     margin-left: 7.5cm;
     text-align: center;
     float: left;
-    font-family: "DM Serif Display", serif;
 }
 .D img
 {
-    margin-left: 2cm;
+    margin-left: 1cm;
 }
