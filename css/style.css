@@ -52,6 +52,10 @@ body
     border: 0;
     display: inline-flex;
     border-radius: 20px;
+    transition-duration: 0.3s;
+}
+.menu0 button:hover
+{
     box-shadow: 4px 4px 0px 0px rgb(103, 117, 163);
 }
 
@@ -73,17 +77,38 @@ body
 
 .section1
 {
-    margin-left: 1rem;
+    margin-left: 6rem;
     border-radius: 70px;
-    width: 32cm;
+    width: 28cm;
     height: 10cm;
+}
+.section1:hover
+{
+    box-shadow: 0 50px 50px 0 rgba(0,0,0,0.24), 0 50px 50px 0 rgba(0,0,0,0.19);
+}
+
+.section2
+{
+    margin-left: 6rem;
+    border-radius: 70px;
+    width: 28cm;
+    height: 10cm;
+}
+.section2:hover
+{
+    box-shadow: 0 50px 50px 0 rgba(0,0,0,0.24), 0 50px 50px 0 rgba(0,0,0,0.19);
 }
 
 .section3
 {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    margin-left: 6rem;
+    border-radius: 70px;
+    width: 28cm;
+    height: 10cm;
+}
+.section3:hover
+{
+    box-shadow: 0 50px 50px 0 rgba(0,0,0,0.24), 0 50px 50px 0 rgba(0,0,0,0.19);
 }
 
 .profile img
@@ -121,6 +146,10 @@ ul i
     color: aliceblue;
 }
 
+.gard
+{
+    background-color: rgb(14, 20, 28);
+}
 .gard h2
 {
     text-align: center;
@@ -136,18 +165,16 @@ ul i
 .SL h2
 {
     margin-top: 4cm;
-    margin-left: 3cm;
+    margin-left: 1.5cm;
 }
 
 .SL img
 {
     filter: contrast(100%);
     margin: 2rem;
-    box-shadow: 0px 0px 18px 0px rgb(91, 98, 174);
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    color: rgb(255, 255, 255);
 }
 
 .CP
@@ -156,7 +183,7 @@ ul i
 }
 .CP h2
 {
-    margin-left: 4.5cm;
+    margin-left: 3cm;
     margin-top: 4cm;
 }
 .CP img
@@ -174,7 +201,7 @@ ul i
 }
 .CT h2
 {
-    margin-left: 5.5cm;
+    margin-left: 4cm;
     margin-top: 4.5cm;
 }
 .CT img

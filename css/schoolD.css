@@ -47,6 +47,10 @@ body
     border: 0;
     display: inline-flex;
     border-radius: 20px;
+    transition-duration: 0.3s;
+}
+.menu0 button:hover
+{
     box-shadow: 4px 4px 0px 0px rgb(103, 117, 163);
 }
 
@@ -190,11 +194,41 @@ body
 
 .Ac
 {
-    margin-left: 3cm;
+    background-color: black;
 }
-.Ac img
+.Ac h1
 {
+    color: aliceblue;
+    font-family: "DM Serif Display" serif;
+    font-size: 65px;
+    font-weight: 600;
+}
+.pic
+{
+    margin-left: 3cm;
     border: 0;
     border-radius: 25px;
     align-items: start;
+}
+
+.Ac button
+{
+    margin-top: 2.3cm;
+    margin-right: 4cm;
+    float: right;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 60px;
+    width: 12cm;
+    height: 3cm;
+    transition-duration: 0.4s;
+}
+.Ac button:hover
+{
+    box-shadow: 0 10px 10px 0 rgba(192, 186, 186, 0.24), 0 5px 10px 0 rgba(122, 120, 120, 0.19);
+    background-color: aliceblue;
+}
+.Ac button h1:hover
+{
+    color: black;
 }
