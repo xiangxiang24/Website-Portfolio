@@ -81,10 +81,11 @@ body
     border-radius: 70px;
     width: 28cm;
     height: 10cm;
+    transition-duration: 0.3s;
 }
 .section1:hover
 {
-    box-shadow: 0 50px 50px 0 rgba(0,0,0,0.24), 0 50px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 10px 0 0 rgb(54, 80, 111);
 }
 
 .section2
@@ -93,10 +94,11 @@ body
     border-radius: 70px;
     width: 28cm;
     height: 10cm;
+    transition-duration: 0.3s;
 }
 .section2:hover
 {
-    box-shadow: 0 50px 50px 0 rgba(0,0,0,0.24), 0 50px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 10px 0 0 rgb(54, 80, 111);
 }
 
 .section3
@@ -105,10 +107,11 @@ body
     border-radius: 70px;
     width: 28cm;
     height: 10cm;
+    transition-duration: 0.3s;
 }
 .section3:hover
 {
-    box-shadow: 0 50px 50px 0 rgba(0,0,0,0.24), 0 50px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 10px 10px 0 0 rgb(54, 80, 111);
 }
 
 .profile img
@@ -165,7 +168,7 @@ ul i
 .SL h2
 {
     margin-top: 4cm;
-    margin-left: 1.5cm;
+    margin-left: 1.2cm;
 }
 
 .SL img
