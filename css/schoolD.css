@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Itim&family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Itim&family=Niconne&family=Pacifico&family=Sedan:ital@0;1&display=swap');
 
 body
 {
@@ -75,7 +74,7 @@ body
     width: 17cm;
     height: 3cm;
     border-radius: 30px;
-    font-family: "Niconne", cursive;
+    font-family: "Arvo", serif;
     font-size: 100px;
     font-weight: 900;
     letter-spacing: 0.5cm;

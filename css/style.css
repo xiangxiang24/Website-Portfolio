@@ -4,7 +4,7 @@
 
 body
 {
-    background-color: rgb(14, 20, 28);
+    background-color: rgb(24, 29, 36);
 }
 
 .firstpart
@@ -119,8 +119,7 @@ body
     width: 320px;
     height: 320px;
     border-radius: 50%;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 4rem;
     margin-top: -80px;
 }
 
@@ -131,13 +130,13 @@ body
     margin-top: -15rem;
     color: aliceblue;
     text-align: center;
-    margin-left: 7cm;
+    margin-left: 9.5cm;
 }
 
 .icon ul
 {
     margin-top: 3.5rem;
-    margin-left: 14cm;
+    margin-left: 13cm;
 }
 ul i
 {
@@ -149,7 +148,7 @@ ul i
 
 .gard
 {
-    background-color: rgb(14, 20, 28);
+    background-color: rgb(24, 29, 36);
 }
 .gard h2
 {
@@ -234,7 +233,7 @@ ul i
     height: 3.5cm;
     border-radius: 55px;
     border: solid white;
-    background-color: rgb(14, 20, 28);
+    background-color: rgb(24, 29, 36);
     transition-duration: 0.4s;
 }
 .AM button:hover
@@ -243,5 +242,5 @@ ul i
 }
 .AM button h1:hover
 {
-    color: black;
+    color: rgb(7, 15, 56);
 }
