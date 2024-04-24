@@ -56,7 +56,7 @@ body
 }
 .menu0 button:hover
 {
-    box-shadow: 6px 6px 0px 0px rgb(103, 117, 163);
+    box-shadow: 6px 6px 0px 0px rgb(114, 117, 128);
 }
 
 .logo
@@ -85,7 +85,7 @@ body
 }
 .section1:hover
 {
-    box-shadow: 10px 10px 0 0 rgb(54, 80, 111);
+    box-shadow: 10px 10px 0 0 rgb(60, 61, 65);
 }
 
 .section2
@@ -98,7 +98,7 @@ body
 }
 .section2:hover
 {
-    box-shadow: 10px 10px 0 0 rgb(54, 80, 111);
+    box-shadow: 10px 10px 0 0 rgb(60, 61, 65);
 }
 
 .section3
@@ -111,7 +111,7 @@ body
 }
 .section3:hover
 {
-    box-shadow: 10px 10px 0 0 rgb(54, 80, 111);
+    box-shadow: 10px 10px 0 0 rgb(60, 61, 65);
 }
 
 .profile img

@@ -5,7 +5,7 @@
 
 body
 {
-    background-color: rgb(4, 11, 33);
+    background-color: rgb(24, 29, 36);
 }
 
 .firstpart
@@ -55,7 +55,7 @@ body
 }
 .menu0 button:hover
 {
-    box-shadow: 6px 6px 0px 0px rgb(103, 117, 163);
+    box-shadow: 6px 6px 0px 0px rgb(114, 117, 128);
 }
 
 *
@@ -116,7 +116,7 @@ body
     width: 12cm;
     height: 1.25cm;
     margin-top: 2rem;
-    margin-right: 6cm;
+    margin-right: 5cm;
     text-align: center;
     float: right;
     color: white;
@@ -125,7 +125,7 @@ body
 {
     border: 0;
     border-radius: 20px;
-    margin-left: 8cm;
+    margin-left: 5cm;
 }
 
 
@@ -136,7 +136,7 @@ body
     border-radius: 20px;
     width: 10cm;
     height: 2.5cm;
-    margin-left: 7.5cm;
+    margin-left: 5cm;
     margin-top: 0.5rem;
     text-align: center;
     float: left;
@@ -159,7 +159,8 @@ body
 {
     border: 0;
     border-radius: 20px;
-    margin-left: 3cm;
+    margin-left: 2.5cm;
+    margin-right: 2cm;
 }
 
 
@@ -171,7 +172,7 @@ body
     width: 12cm;
     height: 1.25cm;
     margin-top: 2rem;
-    margin-right: 6cm;
+    margin-right: 4.5cm;
     text-align: center;
     float: right;
     color: white;
@@ -188,7 +189,7 @@ body
 {
     border: 0;
     border-radius: 20px;
-    margin-left: 8cm;
+    margin-left: 5cm;
 }
 
 
@@ -209,7 +210,7 @@ body
     width: 12cm;
     height: 1.25cm;
     margin-top: 2rem;
-    margin-left: 7.5cm;
+    margin-left: 3.5cm;
     text-align: center;
     float: left;
     color: white;
@@ -218,7 +219,8 @@ body
 {
     border: 0;
     border-radius: 20px;
-    margin-left: 1cm;
+    margin-right: 1cm;
+    margin-left: 1.5cm;
 }
 
 .Ac
