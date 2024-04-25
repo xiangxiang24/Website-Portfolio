@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Itim&family=Niconne&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&display=swap');
 
 body
 {
@@ -64,3 +65,30 @@ body
     padding: 0;
     text-decoration: none;
 }
+
+.cer
+{
+    color: aliceblue;
+}
+.cmu,
+.pythonmkitl,
+.ais,
+.cira,
+.google,
+.tme,
+.hece,
+.coder{
+    display: flex;
+}
+
+.cmu h1,
+.pythonmkitl h1,
+.ais h1,
+.cira h1,
+.google h1,
+.tme h1,
+.hcec h1,
+.coder h1{
+    font-family: "Playfair Display", serif;
+}
+
