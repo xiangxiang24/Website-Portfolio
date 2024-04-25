@@ -106,8 +106,9 @@ body
 .A img
 {
     border: 0;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-left: 5cm;
+    filter: contrast(85%);
 }
 
 
@@ -140,9 +141,10 @@ body
 .B img
 {
     border: 0;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-left: 2.5cm;
     margin-right: 2cm;
+    filter: contrast(95%);
 }
 
 
@@ -170,8 +172,9 @@ body
 .C img
 {
     border: 0;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-left: 5cm;
+    filter: contrast(90%);
 }
 
 
@@ -200,9 +203,10 @@ body
 .D img
 {
     border: 0;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-right: 1cm;
     margin-left: 1.5cm;
+    filter: contrast(90%);
 }
 
 .Ac
@@ -219,8 +223,6 @@ body
 .pic
 {
     margin-left: 3cm;
-    border: 0;
-    border-radius: 25px;
     align-items: start;
 }
 
