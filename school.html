@@ -6,9 +6,47 @@
     <title>School-Activities</title>
     <link rel="stylesheet" href="css/schoolD.css">
     <style>
+        .Hole img
+        {
+            cursor: pointer;
+            transition-duration: 0.2s;
+            position: relative;
+            transition: all 0.3s ease;
+        }
         .Hole img:hover
         {
-            
+            transform: translate(-12px,-12px);
+        }
+        .head1
+        {
+            background-color: black;
+        }
+        .head1 h1
+        {
+            font-family: "DM Serif Display", serif;
+            font-size: 100px;
+            font-weight: 900;
+            letter-spacing: 0.5cm;
+            color: rgb(255, 255, 255);
+        }
+        .head1 button
+        {
+            margin-left: 8.6cm;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            width: 17cm;
+            height: 3.5cm;
+            border-radius: 30px;
+            border: 2px solid white;
+            transition-duration: 0.3s;
+        }
+        .head1 button:hover
+        {
+            background-color: aliceblue;
+        }
+        .head1 button h1:hover
+        {
+            color: black;
         }
     </style>
 </head>
@@ -26,7 +64,7 @@
             
         <div class="head1">
             <br><br>
-            <h1>SCHOOL</h1>
+            <button><h1>SCHOOL</h1></button>
             <br><br>
         </div>
         <!--next each box-->
@@ -54,7 +92,7 @@
         <div class="Ac">
             <br><br><br>
             <span class="pic"><img src="Image/aco.jpg" width="500px" height="300px"></a></span>
-            <span class="bot"><button><a href="activities.html"><h1>ACTIVITIES</h1></a></button></span>
+            <span class="bot"><button style="border: 2px solid white; border-radius: 60px;"><a href="activities.html"><h1>ACTIVITIES</h1></a></button></span>
             <br><br><br><br>
         </div>
     </div>

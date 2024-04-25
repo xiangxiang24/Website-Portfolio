@@ -55,6 +55,7 @@ body
 }
 .menu0 button:hover
 {
+    transform: translate(-7px,-7px);
     box-shadow: 6px 6px 0px 0px rgb(114, 117, 128);
 }
 
@@ -64,25 +65,6 @@ body
     margin: 0;
     padding: 0;
     text-decoration: none;
-}
-.head1
-{
-    background-color: black;
-}
-.head1 h1
-{
-    margin-left: 8.6cm;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    width: 17cm;
-    height: 3cm;
-    border-radius: 30px;
-    font-family: "Arvo", serif;
-    font-size: 100px;
-    font-weight: 900;
-    letter-spacing: 0.5cm;
-    box-shadow: 10px 10px 0 0 rgb(97, 97, 97);
 }
 
 .SchName 
@@ -247,9 +229,7 @@ body
     margin-top: 2.3cm;
     margin-right: 4cm;
     float: right;
-    background-color: black;
-    border: 2px solid white;
-    border-radius: 60px;
+    background: transparent;
     width: 12cm;
     height: 3cm;
     transition-duration: 0.4s;

@@ -56,6 +56,7 @@ body
 }
 .menu0 button:hover
 {
+    transform: translate(-7px,-7px);
     box-shadow: 6px 6px 0px 0px rgb(114, 117, 128);
 }
 
@@ -85,7 +86,8 @@ body
 }
 .section1:hover
 {
-    box-shadow: 10px 10px 0 0 rgb(60, 61, 65);
+    transform: translate(-10px,-10px);
+    box-shadow: 10px 10px 0px 0px rgb(60, 61, 65);
 }
 
 .section2
@@ -98,6 +100,7 @@ body
 }
 .section2:hover
 {
+    transform: translate(-10px,-10px);
     box-shadow: 10px 10px 0 0 rgb(60, 61, 65);
 }
 
@@ -111,6 +114,7 @@ body
 }
 .section3:hover
 {
+    transform: translate(-10px,-10px);
     box-shadow: 10px 10px 0 0 rgb(60, 61, 65);
 }
 
@@ -233,7 +237,7 @@ ul i
     height: 3.5cm;
     border-radius: 55px;
     border: solid white;
-    background-color: rgb(24, 29, 36);
+    background: transparent;
     transition-duration: 0.4s;
 }
 .AM button:hover
