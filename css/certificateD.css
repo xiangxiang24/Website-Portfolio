@@ -70,25 +70,32 @@ body
 {
     color: aliceblue;
 }
+.cer h1
+{
+    font-family: "Playfair Display", serif;
+}
 .cmu,
 .pythonmkitl,
 .ais,
 .cira,
 .google,
 .tme,
-.hece,
+.hcec,
 .coder{
     display: flex;
 }
 
-.cmu h1,
-.pythonmkitl h1,
-.ais h1,
-.cira h1,
-.google h1,
-.tme h1,
-.hcec h1,
-.coder h1{
-    font-family: "Playfair Display", serif;
+* img 
+{
+    background-color: rgb(23, 21, 21, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.2s;
 }
+* img:hover 
+{
+    transform: translate(10px,10px);
+    filter: brightness(40%);
+}
+
 
