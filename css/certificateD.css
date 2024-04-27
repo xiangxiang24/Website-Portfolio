@@ -10,6 +10,9 @@ body
 .firstpart
 {
     background-color: rgb(14, 15, 18);
+    position: fixed;
+    margin-top: 0cm;
+    z-index: 1;
 }
 
 .menu0 h2
@@ -31,14 +34,12 @@ body
 
 .text1
 {
-    margin-top: 2rem;
-    padding: 0 3rem;
-    float:left;
+    margin-left: 1.25cm;
 }
 .text2
 {
-    float: right;
-    margin-right: 2rem;
+    margin-right: 0.9cm;
+    margin-left: 15.25cm;
 }
 
 .menu0 button
@@ -88,8 +89,8 @@ body
 * img 
 {
     background-color: rgb(23, 21, 21, 0.8);
-    padding: 5px;
-    border-radius: 10px;
+    padding: 2px;
+    border-radius: 5px;
     transition: 0.2s;
 }
 * img:hover 
