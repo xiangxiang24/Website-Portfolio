@@ -52,6 +52,7 @@ body
     display: inline-flex;
     border-radius: 20px;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 .menu0 button:hover
 {

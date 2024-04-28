@@ -53,6 +53,7 @@ body
     display: inline-flex;
     border-radius: 20px;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 .menu0 button:hover
 {
@@ -236,6 +237,7 @@ body
     width: 12cm;
     height: 3cm;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 .Ac button:hover
 {

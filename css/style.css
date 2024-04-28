@@ -54,6 +54,7 @@ body
     display: inline-flex;
     border-radius: 20px;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 .menu0 button:hover
 {
@@ -84,11 +85,12 @@ body
     width: 28cm;
     height: 10cm;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 .section1:hover
 {
     transform: translate(-10px,-10px);
-    box-shadow: 10px 10px 0px 0px rgb(60, 61, 65);
+    box-shadow: 10px 10px 0px 0px rgb(99, 105, 133);
 }
 
 .section2
@@ -98,11 +100,12 @@ body
     width: 28cm;
     height: 10cm;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 .section2:hover
 {
     transform: translate(-10px,-10px);
-    box-shadow: 10px 10px 0 0 rgb(60, 61, 65);
+    box-shadow: 10px 10px 0 0 rgb(99, 105, 133);
 }
 
 .section3
@@ -112,11 +115,12 @@ body
     width: 28cm;
     height: 10cm;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 .section3:hover
 {
     transform: translate(-10px,-10px);
-    box-shadow: 10px 10px 0 0 rgb(60, 61, 65);
+    box-shadow: 10px 10px 0 0 rgb(99, 105, 133);
 }
 
 .profile img
@@ -127,7 +131,6 @@ body
     margin-left: 4rem;
     margin-top: -80px;
 }
-
 
 .profile h2
 {
@@ -240,6 +243,7 @@ ul i
     border: solid white;
     background: transparent;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 .AM button:hover
 {
