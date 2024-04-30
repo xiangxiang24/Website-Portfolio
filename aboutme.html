@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Itim&family=Niconne&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
         body
         {
@@ -73,20 +74,39 @@
             padding: 0;
             text-decoration: none;
         }
+        .picture
+        {
+            margin-left: 4rem;
+            display: flex;
+        }
         .picture h1
         {
             color: aliceblue;
-            font-size: 80px;
-            font-weight: 700;
+            font-size: 120px;
+            font-weight: 900;
+            font-family: "DM Serif Display", serif;
             float: left;
-            margin: 2cm;
+            margin-top: 3cm;
+            letter-spacing: 1rem;
+            margin-left: 3.5cm;
+            text-shadow: 8px 8px rgb(24, 45, 108);
         }
         .picture img
         {
             float: right;
             filter: brightness(75%);
-            align-items: center;
-            margin-right: 5cm;
+            margin-left: -6rem;
+            margin-top: 3rem;
+            z-index: -1;
+        }
+        .text
+        {
+            padding: 1cm 3cm;
+            font-size: 20px;
+            font-weight: 100;
+            font-style: normal;
+            font-family: "Sarabun", sans-serif;
+            color: aliceblue;
         }
     </style>
 </head>
@@ -101,9 +121,21 @@
                 </span>
             </div><br>
         </div>
-        <div class="picture"><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
+        <div class="picture" style="border: none; width: 30cm; height: 9cm;">
             <h1>ABOUT ME</h1>
             <img src="Image/S__4374544.jpg" style="border-radius: 50%; width: 300px; height: 300px;">
+        </div>
+        <br><br><br><br>
+        <div class="text">
+            <p>&emsp;&emsp;&emsp;เนื่องจากในวัยเด็กหนูได้คุ้นเคยกับการใช้คอมพิวเตอร์ เพราะคุณแม่จบสายงานด้าน IT มา คุณแม่เลยมักจะสอนการใช้งานที่จำเป็นและเกิดประโยชน์มากที่สุดให้หนูเป็นประจำเมื่อหนูมีเวลาว่าง หลังจากนั้นหนูได้คุ้นชินกับการทำงานของเทคโนโลยีมากขึ้นเรื่อย ๆ ทำให้หนูอยากศึกษาและเพิ่มพูนความรู้ด้านเทคโนโลยีมากยิ่งขึ้น</p>
+            <br><br>
+            <p>&emsp;&emsp;&emsp;ต่อมาหนูได้มีโอกาสเข้าถึงและทำความรู้จักกับการเขียนเว็บไซต์โดยการ Coding Program ผ่านคุณพ่อ ซึ่งเป็นคนแนะนำให้หนูรู้จัก Frontend และหนูได้เริ่มฝึกเขียนเว็บไซต์เบื้องต้นที่บ่งบอกความเป็นตัวเองไปเสนอให้คุณแม่ ซึ่งตรงนี้ทำให้หนูรู้สึกว่าหนูมีความสุขและอยากพัฒนาทักษะด้านนี้ให้ดีมากยิ่งขึ้น</p>
+            <br><br>
+            <p>&emsp;&emsp;&emsp;ในช่วงมัธยมปลายหนูได้มีโอกาสไปเข้าร่วมกิจกรรมของมหาวิทยาลัยต่างๆที่เกี่ยวกับ Software และได้รับความรู้ ประสบการณ์ คำปรึกษาจากผู้ที่ทำงานในสายงานด้านนี้จริง ทำให้หนูได้ตัดสินใจฝึกสร้าง Project เป็นชิ้นงานเก็บสะสมไว้เพื่อให้เป็นผู้คนต่างๆได้ติชมในชิ้นงานของหนู ซึ่งหนูได้เล็งเห็นว่า มหาวิทยาลัยพระจอมเกล้าธนบุรี คณะเทคโนโลยี สาขาวิทยาการคอมพิวเตอร์ ได้สร้างชื่อเสียงมากมาย และได้รับการันตีฝีมือการทำงานของนักศึกษาที่เรียนจบจากที่นี่ เช่นผู้ปกครองของหนูเอง ทำให้หนูศึกษาหลักสูตรอย่างถี่ถ้วนก่อนตัดสินใจเลือกเรียนที่นี่</p>
+            <br><br>
+            <p>&emsp;&emsp;&emsp;เป้าหมายในอนาคตของหนูหนูหวังว่าเมื่อหนูจบการศึกษาจากมหาวิทยาลัยพระจอมเกล้าธนบุรี หนูจะได้รับความรู้และทักษะการทำงานที่ดี เพื่อนำไปประยุกต์ใช้กับการทำงานอย่างจริงจังในอนาคต และหนูหวังว่าหนูจะได้เป็นส่วนหนึ่งผู้พัฒนาเว็บไซต์อย่างเป็นระบบ ได้เป็นกำลังสำคัญในส่วนหนึ่งของวงการเทคโนโลยีของประเทศ และสร้างชื่อเสียงของมหาวิทยาลัยให้โด่งดังขึ้นจากหลักสูตรที่ทางมหาวิทยาลัยได้มอบให้กับนักศึกษาทุกคณะทุกภาควิชา</p>
+            <br>
         </div>
     </div>
 </body>
