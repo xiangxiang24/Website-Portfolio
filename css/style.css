@@ -1,302 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@0;1&family=Itim&family=Pacifico&display=swap');
 
-body
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+img
+{
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.container
 {
     background-color: rgb(24, 29, 36);
+    max-width: 1440px;
+    height: auto;
+    width: 100%;
+    margin: auto;
 }
 
 .firstpart
 {
+    max-width: 1440px;
+    width: 100%;
+    height: 100px;
     background-color: rgb(14, 15, 18);
     position: fixed;
-    z-index: 1;
 }
-
-.menu0 h2
+.menu0
 {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    font-weight: 900;
-    display: inline;
-    text-align: start;
-    padding: 2rem;
-    list-style-type: none;
+    margin-left: 5rem;
 }
-
-.menu0 a
-{
-    font-size: 20px;
-    color: rgb(24, 45, 108);
-}
-
 .text1
 {
-    margin-left: 1.25cm;
+    margin-top: 1.5rem;
+    float: left;
+}
+.text1 h2
+{
+    color: aliceblue;
+    font-size: 40px;
 }
 .text2
 {
-    margin-right: 0.9cm;
-    margin-left: 15.2cm;
+    letter-spacing: 2rem;
+    padding: 2rem;
+    float: right;
 }
-
-.menu0 button
+.text2 button
 {
-    font-weight: 900;
-    margin-left: 0.5cm;
-    margin-top: 2rem;
-    padding: 10px 25px;
-    border: 0;
-    display: inline-flex;
+    border: none;
+    padding: 7px 15px;
     border-radius: 20px;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
     cursor: pointer;
 }
-.menu0 button:hover
+.text2 button:hover
 {
     transform: translate(-7px,-7px);
     box-shadow: 6px 6px 0px 0px rgb(114, 117, 128);
 }
-
-*
+.text2 a
 {
+    color: rgb(24, 45, 108);
+    font-weight: 900;
+    font-size: 20px;
     font-family: "Arvo", serif;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
 }
 
-.logo
-{
-    padding: 2px 2px;
-    font-size: 2rem;
-    text-align: start;
-    position: relative;
-}
+/*-----part menubar-----*/
 
 .UY
 {
-    font-family: "DM Serif Display", serif;
-    border-radius: 40px;
+    max-width: 1440px;
+    width: 100%;
     background-color: black;
-    margin-left: 1.5cm;
-    margin-top: 2cm;
-    width: 30cm;
-    height: 11cm;
 }
-.icon i
+.profile
 {
-    margin: 30px;
-    border: none;
-    width: 60px; height: 60px; 
+    margin: 1rem;
+    display: flex;
+}
+.profile img
+{
+    margin-left: 6rem;
     border-radius: 100%;
-    margin-left: 0.5rem;
-    margin-top: 0.5rem;
+}
+.profile h2
+{
+    float: right;
+    margin-left: 4rem;
+    margin-top: 5rem;
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+}
+.icon
+{
+    float: left;
+    margin-top: -5rem;
+    margin-left: 33rem;
+    align-items: center;
+    letter-spacing: 1.5rem;
 }
 .icon button
 {
-    background-color: black;
-    border: 0px;
-    border-radius: 100%;
-    width: 75px; height: 75px;
-    margin: 15px
+    border: none;
+    background: none;
+    transition-duration: 0.2s;
 }
 .icon button:hover
 {
-    transform: translate(0, -15px);
+    transform: translate(0pc, -8px);
 }
-.icon:hover::after
+.icon i
 {
-    transition: all 0.5s ease;
-}
-.fa-solid
-{
-    font-size: 55px;
-}
-
-.section1
-{
-    margin-left: 6rem;
-    border-radius: 70px;
-    width: 28cm;
-    height: 10cm;
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
-.section1:hover
-{
-    transform: translate(-10px,-10px);
-    box-shadow: 10px 10px 0px 0px rgb(99, 105, 133);
-}
-
-.section2
-{
-    margin-left: 6rem;
-    border-radius: 70px;
-    width: 28cm;
-    height: 10cm;
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
-.section2:hover
-{
-    transform: translate(-10px,-10px);
-    box-shadow: 10px 10px 0 0 rgb(99, 105, 133);
-}
-
-.section3
-{
-    margin-left: 6rem;
-    border-radius: 70px;
-    width: 28cm;
-    height: 10cm;
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
-.section3:hover
-{
-    transform: translate(-10px,-10px);
-    box-shadow: 10px 10px 0 0 rgb(99, 105, 133);
-}
-
-.profile img
-{
-    width: 320px;
-    height: 320px;
-    border-radius: 50%;
-    margin-left: 4rem;
-    margin-top: -80px;
-}
-
-.profile h2
-{
+    color: aliceblue;
     font-size: 50px;
-    margin-top: -15rem;
-    color: aliceblue;
-    text-align: center;
-    margin-left: 9.5cm;
 }
+/*-------part introduce------*/
 
-.icon ul
+.section1, .section2, .section3
 {
-    margin-top: 3.5rem;
-    margin-left: 13cm;
-}
-ul i
-{
-    display: flex;
-    background: none;
-    font-size: 60px;
-    color: aliceblue;
-}
-
-.gard
-{
-    background-color: rgb(24, 29, 36);
-    font-family: "DM Serif Display", serif;
-}
-.gard a
-{
-    text-decoration: none;
-}
-.gard h2
-{
-    text-align: center;
-    font-size: 55px;
-    list-style: none;
-    color: aliceblue;
-}
-
-.SL
-{
-    display: inline-flex;
-}
-.SL h2
-{
-    margin-top: -5.5cm;
-    margin-left: 10cm;
-}
-
-.SL img
-{
-    filter: contrast(100%);
     margin: 2rem;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    margin-left: 7rem;
+    width: 100%;
+    height: 100%;
+    max-width: 900px;
+    max-height: 300px;
+    border-radius: 40px;
+    border: none;
+    background-color: black;
 }
-
-.CP
-{
-    display: inline-flex;
-}
-.CP h2
-{
-    margin-left: 11.5cm;
-    margin-top: -5.5cm;
-}
-.CP img
-{
-    filter: contrast(100%);
-    margin: 2rem;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
-
-.CT
-{
-    display: inline-flex;
-}
-.CT h2
-{
-    margin-left: 12cm;
-    margin-top: -5.5cm;
-}
-.CT img
-{
-    filter: contrast(100%);
-    margin: 2rem;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-}
-
-
-.AM
-{
-    margin-left: 11cm;
-}
-.AM a
-{
-    text-decoration: none;
-}
-.AM h1
-{
-    text-align: center;
-    color: aliceblue;
-    font-family: "DM Serif Display", serif;
-    font-size: 80px;
-    font-weight: 900;
-}
-
-.AM button
-{
-    width: 12cm;
-    height: 3.5cm;
-    border-radius: 55px;
-    border: solid white;
-    background: transparent;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-.AM button:hover
-{
-    background-color: aliceblue;
-}
-.AM button h1:hover
-{
-    color: rgb(7, 15, 56);
-}
-
