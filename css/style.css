@@ -175,7 +175,7 @@ img
     text-align: center;
     color: aliceblue;
     font-size: 70px;
-    font-family: "Arvo", serif;
+    font-family: "DM Serif Display", serif;
     padding: 1rem;
 }
 .last button
@@ -190,6 +190,7 @@ img
 }
 .last button:hover
 {
+    transform: translate(0px, -10px);
     background-color: white;
 }
 .last h1:hover
