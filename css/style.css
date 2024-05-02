@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
 
+/*-----part menubar-----*/
 *
 {
-    margin: 0;
+    width: auto; height: auto;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -27,11 +29,13 @@ img
 
 .firstpart
 {
+    margin: 0 auto;
     max-width: 1440px;
     width: 100%;
     height: 100px;
     background-color: rgb(14, 15, 18);
     position: fixed;
+    z-index: 1;
 }
 .menu0
 {
@@ -74,62 +78,60 @@ img
     font-family: "Arvo", serif;
 }
 
-/*-----part menubar-----*/
-
+/*-------part introduce------*/
 .UY
 {
+    margin: 0 auto;
     max-width: 1440px;
     width: 100%;
     background-color: black;
 }
 .profile
 {
-    margin: 1rem;
     display: flex;
 }
 .profile img
 {
-    margin-left: 6rem;
+    margin: 0 auto;
     border-radius: 100%;
 }
 .profile h2
 {
-    float: right;
-    margin-left: 4rem;
+    margin: 0 auto;
     margin-top: 5rem;
+    margin-left: -5rem;
     color: aliceblue;
     font-size: 50px;
     text-align: center;
 }
 .icon
 {
-    float: left;
+    display: grid;
+    margin-left: 20rem;
     margin-top: -5rem;
-    margin-left: 33rem;
-    align-items: center;
     letter-spacing: 1.5rem;
+}
+.icon i
+{
+    font-size: 55px;
+    color: aliceblue;
 }
 .icon button
 {
     border: none;
     background: none;
-    transition-duration: 0.2s;
+    transition-duration: 0.3s;
 }
 .icon button:hover
 {
-    transform: translate(0pc, -8px);
+    transform: translate(0, -10px);
 }
-.icon i
-{
-    color: aliceblue;
-    font-size: 50px;
-}
-/*-------part introduce------*/
+/*-------part content------*/
 
 .section1, .section2, .section3
 {
-    margin: 2rem;
-    margin-left: 7rem;
+    margin: 0 auto;
+    padding: 1rem;
     width: 100%;
     height: 100%;
     max-width: 900px;
@@ -137,4 +139,60 @@ img
     border-radius: 40px;
     border: none;
     background-color: black;
+    display: flex;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.section1:hover , .section2:hover , .section3:hover
+{
+    transform: translate(-10px,-10px);
+    box-shadow: 10px 10px 0 0  #314455;
+}
+.section1 img, .section2 img, .section3 img
+{
+    width: 250px; height: 250px;
+    border-radius: 100%;
+
+}
+.section1 h2{margin-left: 2rem;} .section2 h2{margin-left: 2rem;} .section3 h2{margin-left: 2rem;}
+.gard h2
+{
+    margin-top: 6rem;
+    font-size: 45px;
+    color: aliceblue;
+}
+
+/*--------part About me button---------*/
+.last
+{
+    margin: inherit;
+    max-width: 25rem;
+    width: 100%;
+}
+
+.last h1
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: 70px;
+    font-family: "Arvo", serif;
+    padding: 1rem;
+}
+.last button
+{
+    width: inherit;
+    margin: auto;
+    background:transparent;
+    border: 2px solid white;
+    border-radius: 40px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.last button:hover
+{
+    background-color: white;
+}
+.last h1:hover
+{
+    color: #151b45;
 }
