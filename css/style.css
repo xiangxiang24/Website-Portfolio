@@ -197,3 +197,34 @@ img
 {
     color: #151b45;
 }
+
+
+@media (max-width:820px)
+{
+    .gard{width: 85%;}
+    .profile h2
+    {font-size: 35px; margin-top: 7rem; margin-left: -1rem;}
+}
+@media (max-width:800px)
+{
+    .gard{width: 85%;}
+    .profile h2
+    {font-size: 35px; margin-top: 7rem; margin-left: -1rem;}
+}
+
+@media (max-width:768px) 
+{
+    .profile h2
+    {font-size: 35px; margin-top: 7rem; margin-left: -2rem;}
+    .gard{width: 80%;}
+    .gard h2{font-size: 30px;}
+}
+@media (max-width:640px)
+{
+    .menu0{margin-left: 2rem;}
+    .profile img{width: 250px; height: 250px;}
+    .profile h2{font-size: 30px;}
+    .icon{margin-left: 16rem;}
+    .icon i{font-size: 40px;}
+    .gard img{width: 200px; height: 200px;}
+}
