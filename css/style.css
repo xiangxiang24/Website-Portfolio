@@ -228,3 +228,27 @@ img
     .icon i{font-size: 40px;}
     .gard img{width: 200px; height: 200px;}
 }
+@media (max-width:390px)
+{
+    .firstpart{display: flex; height: 20%;}
+    .text1{margin-left: 5rem;}
+    .text2{padding: 1rem; margin-top: 1rem; margin-right: 1rem;}
+    .profile{display: flex;}
+    .profile img
+    {
+        width: 150px; height: 150px;
+        margin: 0 auto; margin-top: 5rem;
+        margin-left: 1rem;
+    }
+    .icon i{font-size: 30px;}
+    .icon{margin-left: 8rem; margin-top: -2rem;}
+    .gard img{width: 100px; height: 100px;}
+    .gard h2{font-size: 25px; margin-top: 1rem;}
+    .section3 h2{margin-top: 2.5rem;}
+    .last{width: 85%; margin: 1rem; margin-left: 3.5rem;}
+    .last h1{font-size: 50px;}
+}
+@media (max-width:375px)
+{
+    .text2{margin-left: 1rem;}
+}
