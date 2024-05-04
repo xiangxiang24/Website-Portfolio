@@ -248,7 +248,25 @@ img
     .last{width: 85%; margin: 1rem; margin-left: 3.5rem;}
     .last h1{font-size: 50px;}
 }
-@media (max-width:375px)
+@media (max-width:320px)
 {
-    .text2{margin-left: 1rem;}
+    .firstpart{height: 25%;}
+    .text1{margin-left: 1.6rem;}
+    .text2{margin-left: -1rem; display: flex; margin-top: 0rem;}
+    .text2 button{padding: 5px 7px; margin: 4px;}
+    .profile{display: flex; margin-top: 5rem;}
+    .profile img
+    {
+        width: 150px; height: 150px;
+        margin: 0 auto; margin-left: 5.5rem;
+    }
+    .profile h2{font-size: 20px; margin-top: 11rem; margin-left: 4.5rem; position: absolute;}
+    .icon{margin-top: 4rem; margin-left: 0.5rem; padding: 0;}
+    .icon i{font-size: 30px;}
+    .gard h2{font-size: 15px;}
+    .section1 h2, .section2 h2{margin-top: 2rem;}
+    .last{margin-left: 3.5rem;}
+    .last h1{font-size: 35px;}
+    .last button{width: 75%;}
 }
+/*Can not edit size of screen in 375px and 360px*/
