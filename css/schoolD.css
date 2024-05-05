@@ -12,6 +12,10 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body
+{
+    margin: 0 auto;
+}
 
 img
 {
@@ -121,12 +125,33 @@ img
     padding: 5px;
     border: none;
     border-radius: 30px;
+    transition-duration: 0.3s;
 }
+.SchName img:hover
+{
+    transform: translate(-5px, -5px);
+    filter: brightness(50%);
+}
+.guide
+{
+    justify-content: center;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: -12.5rem;
+    font-size: 70px;
+    z-index: 1;
+    color: aliceblue;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+
 .SchName h1
 {
     max-width: 25rem;
     width: 40rem;
     margin-top: 2rem;
+    padding: 10px;
     text-align: center;
     border: 2px solid white;
     border-radius: 30px;
@@ -137,8 +162,23 @@ img
 .SchName p
 {
     margin-top: 4rem;
+    color: aliceblue;
+    font-size: 25px;
 }
 .A, .B, .C, .D
 {
     display: flex;
+}
+
+/*--------last part-------*/
+
+
+
+/*---------------Media og screen part----------------*/
+
+@media (max-width:1440px)
+{
+    .img
+    {width: 400px; height: 400px;}
+    .SchName{margin: 4rem;}
 }
