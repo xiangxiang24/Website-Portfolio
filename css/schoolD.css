@@ -102,13 +102,9 @@ img
     max-height: 10rem;
     border: 2px solid white;
     border-radius: 40px;
-    background: transparent;
+    background-color: rgba(4, 4, 30, 0.708);
 }
-.head1 h1:hover
-{
-    background-color: aliceblue;
-    color: black;
-}
+
 
 /*-------part School name------*/
 .SchName
@@ -132,19 +128,6 @@ img
     transform: translate(-5px, -5px);
     filter: brightness(50%);
 }
-.guide
-{
-    justify-content: center;
-    position: absolute;
-    margin-left: 2rem;
-    margin-top: -12.5rem;
-    font-size: 70px;
-    z-index: 1;
-    color: aliceblue;
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
-
 
 .SchName h1
 {
@@ -172,7 +155,47 @@ img
 
 /*--------last part-------*/
 
+.activities
+{
+    margin: 0 auto;
+    display: flex;
+}
 
+.activities img
+{
+    margin: 0 auto;
+    margin-left: 10rem;
+    float: left;
+    border: 2px solid aliceblue;
+    border-radius: 30px;
+}
+.btn
+{
+    float: right; margin-right: 18rem;
+    margin-top: 3.5rem;
+}
+.btn button
+{
+    border: 2px solid aliceblue;
+    border-radius: 35px;
+    background: transparent;
+    transition-duration: 0.4s;
+}
+.btn button:hover
+{
+    background-color: aliceblue;
+}
+.btn h1:hover
+{
+    color: black;
+}
+.btn h1
+{
+    font-size: 50px;
+    padding: 1rem;
+    color: white;
+    font-family: "Dm Serif Display", serif;
+}
 
 /*---------------Media og screen part----------------*/
 
