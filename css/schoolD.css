@@ -159,6 +159,7 @@ img
 {
     margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 
 .activities img
@@ -204,4 +205,9 @@ img
     .img
     {width: 400px; height: 400px;}
     .SchName{margin: 4rem;}
+}
+@media (max-width:1024px)
+{
+    .btn h1{font-size: 45px; margin-right: 1rem;}
+    .btn{margin-right: 9rem;}
 }
