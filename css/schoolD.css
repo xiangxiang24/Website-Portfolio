@@ -226,3 +226,22 @@ img
     .pic{margin-left: -4rem;}
     .btn{margin-right: 5rem;}
 }
+
+@media (min-width:768px)
+{
+    .SchName{margin-left: -1rem;}
+}
+
+@media (max-width:375px)
+{
+    .firstpart{max-height: 12rem; height: 11rem;}
+    .text2 {display: flex; margin-right: 3rem; margin-top: -1rem;}
+    .text2 button{padding: 5px 7px; margin: 4px;}
+    .head1{font-size: 20px; width: 90%; margin-top: 5rem;}
+    .A1, .C1{margin: 0 auto; width: 90%; margin-left: -2rem;}
+    .A2, .C2{margin: 0 auto; margin-left: -10rem; margin-top: 20rem;}
+    .A2 h1, .C2 h1{font-size: 25px; width: 120%;}
+    .B1, .D1{margin: 0 auto; margin-right: -10rem; margin-top: 20rem;}
+    .B1 h1{font-size: 25px; width: 120%; margin-left: -0.5rem;}
+    .D1 h1{font-size: 25px; width: 150%; margin-left: 1rem;}
+}
