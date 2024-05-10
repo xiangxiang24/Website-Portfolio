@@ -155,25 +155,18 @@ img
 
 /*--------last part-------*/
 
-.activities
-{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
 
 .activities img
 {
     margin: 0 auto;
-    margin-left: 10rem;
-    float: left;
+    margin-left: 12rem;
     border: 2px solid aliceblue;
     border-radius: 30px;
 }
 .btn
 {
     float: right; margin-right: 18rem;
-    margin-top: 3.5rem;
+    margin-top: -9rem;
 }
 .btn button
 {
@@ -230,6 +223,7 @@ img
 @media (min-width:768px)
 {
     .SchName{margin-left: -1rem;}
+    .activities img{margin-left: 8rem;}
 }
 
 @media (max-width:375px)
@@ -242,6 +236,8 @@ img
     .A2, .C2{margin: 0 auto; margin-left: -10rem; margin-top: 20rem;}
     .A2 h1, .C2 h1{font-size: 25px; width: 120%;}
     .B1, .D1{margin: 0 auto; margin-right: -10rem; margin-top: 20rem;}
+    .B2{margin-left: -5.5rem;} .D2{margin-left: -1.5rem;}
     .B1 h1{font-size: 25px; width: 120%; margin-left: -0.5rem;}
     .D1 h1{font-size: 25px; width: 150%; margin-left: 1rem;}
+    .activities{justify-content: stretch;}
 }
