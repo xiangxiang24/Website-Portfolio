@@ -246,3 +246,22 @@ img
     .btn button{margin-top: 6rem; width: 90%;}
     .btn h1{font-size: 25px;}
 }
+@media (max-width:320px)
+{
+    .text1{margin-left: -1rem;}
+    .text2{margin-right: 2rem;}
+    .SchName img{width: 250px; height: 270px;}
+    .SchName{margin: 0 auto;}
+    .A2 h1{margin-left: -1rem;}
+    .A2 p{margin-right: -2rem;}
+    .B2{margin-left: -4.5rem;}
+    .B1 h1{margin-left: -1.5rem;}
+    .C2 h1{margin-left: -1rem;}
+    .D1{margin-left: 0.5rem;}
+    .D1 h1{margin-left: -0.5rem;}
+    .D1 p{margin-left: -2rem;}
+    .activities{margin-top: 2rem;}
+    .pic{margin-left: -5.5rem;}
+    .btn{margin-right: 4rem;}
+    .btn h1{text-align: center;}
+}
