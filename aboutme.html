@@ -91,7 +91,7 @@ img
 
         .picture
         {
-            margin: 2rem 4rem;
+            margin: 0 auto;
             display: flex;
         }
         .picture h1
@@ -103,7 +103,6 @@ img
             float: left;
             margin-top: 3cm;
             letter-spacing: 1rem;
-            margin-left: 3cm;
             text-shadow: 8px 8px rgb(24, 45, 108);
             z-index: 2;
         }
@@ -111,13 +110,12 @@ img
         {
             float: right;
             filter: brightness(75%);
-            margin-left: -10rem;
             margin-top: 3rem;
             z-index: 1;
         }
         .text
         {
-            margin: auto 3rem;
+            margin: 0rem 3rem;
             font-size: 20px;
             font-weight: 100;
             font-style: normal;
@@ -128,6 +126,22 @@ img
             background-color: rgb(16, 16, 37);
             padding: 2rem;
         }
+    /*Media screen of web*/
+    
+    @media (max-width:1024px)
+    {
+        .picture h1{font-size: 100px;}
+    }
+
+    @media (max-width:1044px)
+    {
+        .picture h1{font-size: 90px;}
+        .picture img{width: 80px; height: 80px; margin-left: -5rem;}
+    }
+    @media (max-width:768px)
+    {
+        .picture{width: 90%;}
+    }
     </style>
 </head>
 <body>
