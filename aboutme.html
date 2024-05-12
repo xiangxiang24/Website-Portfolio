@@ -13,7 +13,6 @@
 /*-----part menubar-----*/
 *
 {
-    width: auto; height: auto;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -32,9 +31,7 @@ img
 {
     background-color: rgb(24, 29, 36);
     max-width: 1440px;
-    height: auto;
-    width: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .firstpart
@@ -92,30 +89,13 @@ img
         .picture
         {
             margin: 0 auto;
-            display: flex;
         }
         .picture h1
         {
-            color: aliceblue;
-            font-size: 120px;
-            font-weight: 900;
-            font-family: "DM Serif Display", serif;
-            float: left;
-            margin-top: 3cm;
-            letter-spacing: 1rem;
-            text-shadow: 8px 8px rgb(24, 45, 108);
-            z-index: 2;
-        }
-        .picture img
-        {
-            float: right;
-            filter: brightness(75%);
-            margin-top: 3rem;
-            z-index: 1;
+            font-size: 100px;
         }
         .text
         {
-            margin: 0rem 3rem;
             font-size: 20px;
             font-weight: 100;
             font-style: normal;
@@ -123,6 +103,7 @@ img
             color: aliceblue;
             border-radius: 50px;
             border: none;
+            margin: 2rem;
             background-color: rgb(16, 16, 37);
             padding: 2rem;
         }
@@ -130,16 +111,13 @@ img
     
     @media (max-width:1024px)
     {
-        .picture h1{font-size: 100px;}
+        .picture img{margin-top: -15rem;}
+        .text{margin-top: 2rem;}
     }
 
     @media (max-width:1044px)
     {
         .picture h1{font-size: 90px;}
-    }
-    @media (max-width:768px)
-    {
-        .picture{width: 90%;}
     }
     </style>
 </head>
@@ -155,7 +133,7 @@ img
             </div><br>
         </div>
         <br><br><br><br><br><br><br><br>
-        <div class="picture" style="border: none; width: 30cm; height: 9cm;">
+        <div class="picture">
             <h1>ABOUT ME</h1>
             <img src="Image/S__4374544.jpg" style="border-radius: 50%; width: 300px; height: 300px;">
         </div>
@@ -169,7 +147,7 @@ img
             <br><br>
             <p>&emsp;&emsp;&emsp;เป้าหมายในอนาคตของหนูหนูหวังว่าเมื่อหนูจบการศึกษาจากมหาวิทยาลัยพระจอมเกล้าธนบุรี หนูจะได้รับความรู้และทักษะการทำงานที่ดี เพื่อนำไปประยุกต์ใช้กับการทำงานอย่างจริงจังในอนาคต และหนูหวังว่าหนูจะได้เป็นส่วนหนึ่งผู้พัฒนาเว็บไซต์อย่างเป็นระบบ ได้เป็นกำลังสำคัญในส่วนหนึ่งของวงการเทคโนโลยีของประเทศ และสร้างชื่อเสียงของมหาวิทยาลัยให้โด่งดังขึ้นจากหลักสูตรที่ทางมหาวิทยาลัยได้มอบให้กับนักศึกษาทุกคณะทุกภาควิชา</p>
             <br>
-        </div><br><br><br><br><br><br><br>
+        </div><br><br>
     </div>
 </body>
 </html>
