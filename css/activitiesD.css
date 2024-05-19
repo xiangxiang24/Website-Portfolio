@@ -75,17 +75,40 @@ body
 /*------menu bar part---------*/
 
 /* slide show */
-.slideshow
+.slideshow-TU
 {
+    position: relative;
     border: 2px solid white;
+    padding: 1rem;
+    width: 800px; height: 300px;
     margin: 0 auto;
     margin-top: 80px;
 }
-.item img
+.items img
 {
     width: 470px; height: 260px;
     margin: 0 auto;
     border-radius: 30px;
-    justify-content: center;
     object-fit: cover;
+}
+.slideshow-TU .slick-prev
+{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    z-index: 10;
+}
+.slideshow-TU .slick-next
+{
+    position: absolute;
+    right: 20px;
+    top: 120px;
+}
+.slideshow-TU .slick-arrow
+{
+    background: none;
+    border: none;
+    color: aliceblue;
+    font-size: 40px;
+    cursor: pointer;
 }
