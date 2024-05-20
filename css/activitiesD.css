@@ -199,3 +199,11 @@ body
     cursor: pointer;
 }
 /* -------------------- */
+h1
+{
+    margin: 0 auto;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 55px;
+}
