@@ -157,3 +157,45 @@ body
     font-size: 40px;
     cursor: pointer;
 }
+
+/* slideshow KMITL */
+.slideshow-KMUTT
+{
+    border: 2px solid white;
+    padding: 1rem;
+    width: 800px; height: 300px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+/* ----------------------- */
+
+/* items-group KMUTT */
+.items-3 img
+{
+    margin: 0 auto;
+    border-radius: 30px;
+    object-fit: cover;
+    width: 470px; height: 260px;
+}
+.slideshow-KMUTT .slick-next
+{
+    position: absolute;
+    right: 20px;
+    top: 120px;
+}
+.slideshow-KMUTT .slick-prev 
+{
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    z-index: 10;
+}
+.slideshow-KMUTT .slick-arrow
+{
+    background: none;
+    border: none;
+    color: aliceblue;
+    font-size: 40px;
+    cursor: pointer;
+}
+/* -------------------- */
