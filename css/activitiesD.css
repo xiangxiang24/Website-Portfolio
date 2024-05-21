@@ -78,8 +78,9 @@ body
 .slideshow-TU
 {
     position: relative;
-    border: 2px solid white;
-    padding: 1rem;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(6, 42, 74, 0.539);    padding: 1rem;
     width: 800px; height: 300px;
     margin: 0 auto;
     margin-top: 80px;
@@ -120,7 +121,9 @@ body
 /* slideshow KMITL */
 .slideshow-KMITL
 {
-    border: 2px solid white;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(6, 42, 74, 0.539);
     padding: 1rem;
     width: 800px; height: 300px;
     margin: 0 auto;
@@ -161,7 +164,9 @@ body
 /* slideshow KMITL */
 .slideshow-KMUTT
 {
-    border: 2px solid white;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(6, 42, 74, 0.539);
     padding: 1rem;
     width: 800px; height: 300px;
     margin: 0 auto;
