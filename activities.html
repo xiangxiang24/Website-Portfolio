@@ -115,17 +115,26 @@
     <script>
         $(document).ready(() => {
             // TU
-            $('.slideshow-TU').slick();
+            $('.slideshow-TU').slick({
+                dots: true
+            });
             $('.slideshow-TU .slick-prev').html('<i class="fa-solid fa-circle-arrow-left"></i>')
             $('.slideshow-TU .slick-next').html('<i class="fa-solid fa-circle-arrow-right"></i>')
+            $('.slideshow-TU .slick-dots li').html('')
             // KMITL
-            $('.slideshow-KMITL').slick();
+            $('.slideshow-KMITL').slick({
+                dots: true
+            });
             $('.slideshow-KMITL .slick-prev').html('<i class="fa-solid fa-circle-arrow-left"></i>')
             $('.slideshow-KMITL .slick-next').html('<i class="fa-solid fa-circle-arrow-right"></i>')
+            $('.slideshow-KMITL .slick-dots li').html('')
             // KMUTT
-            $('.slideshow-KMUTT').slick();
+            $('.slideshow-KMUTT').slick({
+                dots: true
+            });
             $('.slideshow-KMUTT .slick-prev').html('<i class="fa-solid fa-circle-arrow-left"></i>')
             $('.slideshow-KMUTT .slick-next').html('<i class="fa-solid fa-circle-arrow-right"></i>')
+            $('.slideshow-KMUTT .slick-dots li').html('')
         });
     </script>
 
