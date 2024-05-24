@@ -131,8 +131,8 @@ img
 {
     transform: translate(-15px, -10px);
     font-size: 17px;
-    background-color: rgb(219, 219, 232);
-    color: black;
+    background-color: rgba(108, 118, 182, 0.473);
+    border: none;
 }
 .modal2 /*pyhton kmitl*/
 {
@@ -147,9 +147,9 @@ img
 }
 .modal2:hover
 {
-    background-color: rgb(219, 219, 232);
+    background-color: rgba(108, 118, 182, 0.473);
+    border: none;
     font-size: 17px;
-    color: black;
     transform: translate(-15px, -10px);
 }
 .modal3 /*ais*/
@@ -165,8 +165,8 @@ img
 }
 .modal3:hover
 {
-    background-color: rgb(219, 219, 232);
-    color: black;
+    background-color: rgba(108, 118, 182, 0.473);
+    border: none;
     transform: translate(-15px, -10px);
     font-size: 17px;
 }
@@ -183,8 +183,8 @@ img
 }
 .modal4:hover
 {
-    background-color: rgb(219, 219, 232);
-    color: black;
+    background-color: rgba(108, 118, 182, 0.473);
+    border: none;
     transform: translate(-15px, -10px);
     font-size: 17px;
 }
@@ -201,8 +201,8 @@ img
 }
 .modal5:hover
 {
-    background-color: rgb(219, 219, 232);
-    color: black;
+    background-color: rgba(108, 118, 182, 0.473);
+    border: none;
     transform: translate(-15px, -10px);
     font-size: 17px;
 }
@@ -219,8 +219,8 @@ img
 }
 .modal6:hover
 {
-    background-color: rgb(219, 219, 232);;
-    color: black;
+    background-color: rgba(108, 118, 182, 0.473);
+    border: none;
     transform: translate(-15px, -10px);
     font-size: 17px;
 }
@@ -237,8 +237,8 @@ img
 }
 .modal7:hover
 {
-    background-color: rgb(219, 219, 232);;
-    color: black;
+    background-color: rgba(108, 118, 182, 0.473);
+    border: none;
     transform: translate(-15px, -10px);
     font-size: 17px;
 }
@@ -255,8 +255,8 @@ img
 }
 .modal8:hover
 {
-    background-color: rgb(219, 219, 232);
-    color: black;
+    background-color: rgba(108, 118, 182, 0.473);
+    border: none;
     transform: translate(-15px, -10px);
     font-size: 17px;
 }

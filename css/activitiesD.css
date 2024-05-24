@@ -305,3 +305,18 @@ h1
     background-color: rgba(255, 255, 255, 0.742);
     border-radius: 30px;
 }
+
+/* --------------------Media----------------- */
+@media (max-width:768px)
+{
+    h1{width: 600px;}
+    .slideshow-KMITL ,.slideshow-KMUTT ,.slideshow-TU{width: 750px;}
+}
+@media (max-width:1024px)
+{
+    h1{width: 780px;}
+}
+@media (max-width:1044px)
+{
+    h1{width: 780px;}
+}
