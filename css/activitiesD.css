@@ -322,10 +322,34 @@ h1
 }
 @media (max-width:390px)
 {
-    .firstpart{height: 20%;}
+    .firstpart{height: 22%;}
     .text1{margin-left: 1.5rem;}
     .text2 {display: flex; margin-right: 4rem; margin-top: -1rem;}
     .text2 button{padding: 5px 7px; margin: 4px;}
     h1{width: 300px; font-size: 35px;}
-    .slide
+    .slideshow-TU .slick-arrow, .slideshow-KMITL .slick-arrow, .slideshow-KMUTT .slick-arrow{font-size: 30px;}
+    .slideshow-TU{width: 350px; height: inherit; border-radius: 20px;}
+    .slideshow-KMITL{width: 350px; height: inherit; border-radius: 20px;}
+    .slideshow-KMUTT{width: 350px; height: inherit; border-radius: 20px;}
+    .modal h1{width: 310px; text-align: center;} .modal{width: 360px;}
+
+}
+
+@media (max-width:360px)
+{
+    .firstpart{height: 30%;}
+    .text1{margin-left: 0.5rem;}
+    .text2{margin-right: 3.5rem;}
+}
+
+@media (max-width:320px)
+{
+    .firstpart{height: 30%;}
+    .text1{margin-left: -1rem;}
+    .text2{margin-right: 2rem;}
+    .slideshow-TU .slick-arrow, .slideshow-KMITL .slick-arrow, .slideshow-KMUTT .slick-arrow{font-size: 28px;}
+    .slideshow-TU{width: 300px; height: inherit; border-radius: 20px;}
+    .slideshow-KMITL{width: 300px; height: inherit; border-radius: 20px;}
+    .slideshow-KMUTT{width: 300px; height: inherit; border-radius: 20px;}
+    .modal h1{width: 290px; text-align: center;} .modal{width: 300px;}
 }
