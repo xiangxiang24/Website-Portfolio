@@ -102,9 +102,12 @@ img
     max-height: 10rem;
     border: 2px solid white;
     border-radius: 40px;
-    background-color: rgba(4, 4, 30, 0.708);
 }
-
+.head1 h1:hover
+{
+    background-color: aliceblue;
+    color: black;
+}
 
 /*-------part School name------*/
 .SchName
