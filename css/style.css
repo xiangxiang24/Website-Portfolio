@@ -39,29 +39,34 @@ img
 }
 .menu0
 {
-    margin-left: 5rem;
+    display: flex;
 }
-.text1
-{
-    margin-top: 1.5rem;
-    float: left;
-}
+
 .text1 h2
 {
+    text-align: center;
     color: aliceblue;
     font-size: 40px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+.text2 span
+{
+    position: absolute;
+    right: 0;
 }
 .text2
 {
+
     letter-spacing: 2rem;
     padding: 2rem;
-    float: right;
 }
 .text2 button
 {
     border: none;
     padding: 7px 15px;
     border-radius: 20px;
+    right: 0;
     transition-duration: 0.2s;
     cursor: pointer;
 }
@@ -82,13 +87,14 @@ img
 .UY
 {
     margin: 0 auto;
-    max-width: 1440px;
     width: 100%;
     background-color: black;
 }
 .profile
 {
     display: flex;
+    margin: 0 auto;
+    width: 100vw;
 }
 .profile img
 {
