@@ -4,7 +4,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(24, 29, 36);
+    background-image: linear-gradient(to right bottom, #210033, #1b0631, #160b2d, #130e28, #111023, #101023, #101123, #0f1123, #0d102a, #0a0e31, #070c37, #05093d);
     color: #fff;
     margin: 0;
     padding: 0;
@@ -57,7 +57,7 @@ body {
 .text2 button:hover
 {
     transform: translate(-7px,-7px);
-    box-shadow: 4px 4px 0px 0px rgb(114, 117, 128);
+    box-shadow: 4px 4px 0px 0px #524559;
 }
 
 /* UY */
@@ -131,8 +131,8 @@ ul button a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
+    gap: 1vw;
+    padding: 8vw;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -151,7 +151,7 @@ ul button a {
 .section1:hover , .section2:hover , .section3:hover
 {
     transform: translate(-10px,-10px);
-    box-shadow: 10px 10px 0 0  #314455;
+    box-shadow: 10px 10px 0 0  #dad5e3;
 }
 
 .section1 img, .section2 img, .section3 img {

@@ -4,7 +4,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(24, 29, 36);
+    background-image: linear-gradient(to right bottom, #210033, #1b0631, #160b2d, #130e28, #111023, #101023, #101123, #0f1123, #0d102a, #0a0e31, #070c37, #05093d);
     color: #fff;
     margin: 0;
     padding: 0;
@@ -97,7 +97,7 @@ body {
     height: 40vw;
     padding: 5px;
     border: none;
-    border-radius: 5vw;
+    border-radius: 50%;
     transition-duration: 0.3s;
 }
 .SchName img:hover

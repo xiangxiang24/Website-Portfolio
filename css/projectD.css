@@ -1,80 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Itim&display=swap');
-
-/*-----part menubar-----*/
 *
 {
-    width: auto; height: auto;
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+    font-family: "Arvo", serif;
 }
-
-img
-{
-    max-width: 300px;
-    max-height: 300px;
-    width: 100%;
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right bottom, #210033, #1b0631, #160b2d, #130e28, #111023, #101023, #101123, #0f1123, #0d102a, #0a0e31, #070c37, #05093d);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
     height: 100%;
 }
 
-.container
-{
-    background-color: rgb(24, 29, 36);
-    max-width: 1440px;
-    height: auto;
-    width: 100%;
-    margin: auto;
+.container {
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .firstpart
 {
-    margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
-    height: 100px;
-    background-color: rgb(14, 15, 18);
+    background: black;
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1;
 }
-.menu0
-{
-    margin-left: 5rem;
-}
-.text1
-{
-    margin-top: 1.5rem;
-    float: left;
+.menu0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 2vw);
 }
 .text1 h2
 {
-    color: aliceblue;
-    font-size: 40px;
+    font-size: 3vw;
+    margin-left: 2rem;
 }
-.text2
+
+.text2 a
 {
-    letter-spacing: 2rem;
-    padding: 2rem;
-    float: right;
+    color: black;
+    font-size: 2.5vw;
+    text-decoration: none;
+    font-weight: 700;
 }
-.text2 button
-{
+.text2 button {
     border: none;
-    padding: 7px 15px;
-    border-radius: 20px;
-    transition-duration: 0.2s;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
     cursor: pointer;
+    transition-duration: 0.2s;
 }
 .text2 button:hover
 {
     transform: translate(-7px,-7px);
-    box-shadow: 6px 6px 0px 0px rgb(114, 117, 128);
+    box-shadow: 4px 4px 0px 0px rgb(114, 117, 128);
 }
-.text2 a
-{
-    color: rgb(24, 45, 108);
-    font-weight: 900;
-    font-size: 20px;
-    font-family: "Arvo", serif;
+
+/* project */
+
+p, li{
+    font-size: 2.2vw;
+}
+
+.content{
+    height: 100%;
+    margin-top: 14vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 4vw;
+}
+
+.content h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vw;
+    background: linear-gradient(to left bottom, #b6d3ff, #87dfff, #61eaf1, #74efc8, #abed97, #cae27f, #e7d571, #ffc76f, #ffb874, #ffaa7d, #ff9e88, #ff9494);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.step img{
+    width: 26vw;
+    height: 18vw;
+    margin: 3vw;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.part1 button a{
+    padding: 1vw;
+    text-decoration: none;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #e99dc9, #e1a5d9, #d6aee6, #cab6f1, #bdbff9, #a0cbff, #81d7ff, #69e1ff, #59ede8, #82f5c2, #bef697, #ffef7b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    text-align: center;
+}
+
+.part1 button{
+    width: 40%;
+    background: none;
+    border: 2px solid #ffffff;
+    border-radius: 2vw;
+    padding: 2vw 3vw;
+    margin: 1vw;
+    cursor: pointer;
+}
+.part1 button a:hover{
+    background: #4b2f20;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.part1 button:hover{
+    background: linear-gradient(to right, #ff9ea5, #ffad93, #fdc087, #edd488, #d5e898, #ceef9e, #c6f6a6, #bdfdaf, #ccfba0, #dcf892, #edf485, #ffef7b);
+}
+
+.part1 p,.r1,.r2,.r3{
+    background: #000000d0;
+    padding: 2vw;
+    border-radius: 2vw;
+    line-height: 1.5;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2vw;
+}
+.comn{
+    display: flex;
+    margin: 1vw;
+}
+.r1{
+    width: 20%;
+    height: 90%;
+}
+.r2{
+    width: 60%;
+}
+
+.part2 .step{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
